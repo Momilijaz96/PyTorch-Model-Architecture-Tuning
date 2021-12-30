@@ -19,8 +19,9 @@ Architectures of these five models are described as under.
  Conclusion: MNIST is a simple dataset and single fully connected layer with sigmoid does good but the other complex architectures were not converging because of a possible bug in implementation or some other logical cause.
  </p>
  <p align='center'>
-<img src="images/res2.png" width="23%"></img>
-<img src="images/res3.png" width="23%"></img>
-<img src="images/res4.png" width="23%"></img>
-<img src="images/res5.png" width="23%"></img> 
+<img src="images/mode1.png" width="23%"></img>
+<img src="images/mode2.png" width="23%"></img>
+<img src="images/mode3.png" width="23%"></img>
+<img src="images/mode4.png" width="23%"></img> 
+<img src="images/mode5.png" width="23%"></img> 
 </p>
