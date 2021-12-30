@@ -1,7 +1,13 @@
 # Pytorch Model Architecture Tuning
 This repo tries to evalute the impact of varying convolutional network architectures on network's performance.
 We compares five different models and analyses their convergence and training for MNIST digit classification dataset.
-Architectures of these five models are described as under.
+ <p align='center'>
+<img src="images/mode1.png" width="63%"></img>
+<img src="images/mode2.png" width="63%"></img>
+<img src="images/mode3.png" width="63%"></img>
+<img src="images/mode4.png" width="63%"></img> 
+<img src="images/mode5.png" width="63%"></img> 
+</p>
 
 <h3>Steps to create Models</h3>
 
@@ -18,10 +24,3 @@ Architectures of these five models are described as under.
  <p>
  Conclusion: MNIST is a simple dataset and single fully connected layer with sigmoid does good but the other complex architectures were not converging because of a possible bug in implementation or some other logical cause.
  </p>
- <p align='center'>
-<img src="images/mode1.png" width="63%"></img>
-<img src="images/mode2.png" width="63%"></img>
-<img src="images/mode3.png" width="63%"></img>
-<img src="images/mode4.png" width="63%"></img> 
-<img src="images/mode5.png" width="63%"></img> 
-</p>
