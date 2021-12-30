@@ -9,6 +9,13 @@ We compares five different models and analyses their convergence and training fo
 <img src="images/mode5.png" width="63%"></img> 
 </p>
 
+<h3> Quick SetUp </h3>
+All 5 network architectures are implemented in ConvNet.py
+From train_evaluate_CNN.py simply give model's number and other hyper params to run a desired model with custom params.
+
+```
+python3 train_evaluate_CNN.py --mode <Mode between 1-5> --learning_rate <LR> --batch_size <batch_size>  --log_dir <output dir>
+```
 <h3>Steps to create Models</h3>
 
 1. Create a fully connected (FC) hidden layer (with 100 neurons) with sigmoid activation function. Train it with SGD with a learning rate of 0.1 (a total of 60 epoch), a mini-batch size of 10, and no regularization.
